@@ -1,3 +1,6 @@
+# Ignore subfolder gits
+**/.git
+
 ### PowerShell template
 # Exclude packaged modules
 *.zip
