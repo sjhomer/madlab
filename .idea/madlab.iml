@@ -3,12 +3,13 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
-      <excludeFolder url="file://$MODULE_DIR$/apps/nextron-v12/.vscode" />
-      <excludeFolder url="file://$MODULE_DIR$/apps/nextron-v12/app" />
-      <excludeFolder url="file://$MODULE_DIR$/apps/nextron-v13/.vscode" />
-      <excludeFolder url="file://$MODULE_DIR$/apps/nextron-v13/app" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/electron/nextron-v12/.vscode" />
+      <excludeFolder url="file://$MODULE_DIR$/electron/nextron-v12/app" />
+      <excludeFolder url="file://$MODULE_DIR$/electron/nextron-v13/.vscode" />
+      <excludeFolder url="file://$MODULE_DIR$/electron/nextron-v13/app" />
+      <excludeFolder url="file://$MODULE_DIR$/electron/nextron/v8.x-nextv13.x-app-router/renderer/.next" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
