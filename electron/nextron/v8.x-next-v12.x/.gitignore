@@ -3,3 +3,7 @@ node_modules
 .next
 app
 dist
+
+# local app files
+.nxtron
+!.nxtron/.gitkeep

@@ -1,5 +1,6 @@
-# Ignore subfolder gits
+# Ignore subfolder git/IDes
 **/.git
+**/.idea
 
 ### PowerShell template
 # Exclude packaged modules

@@ -1,24 +1,16 @@
-import React from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
+import React, {useState} from 'react';
+// Import the Slate components and React plugin.
+import {Editor, Sidebar} from "../ui";
 
-function Home() {
+const App = () => {
+  const [selectedFile, setSelectedFile] = useState(null);
+
   return (
-    <React.Fragment>
-      <Head>
-        <title>Home - Nextron (with-typescript)</title>
-      </Head>
-      <div>
-        <p>
-          ⚡ Electron + Next.js ⚡ -
-          <Link href="/next">
-            <a>Go to next page</a>
-          </Link>
-        </p>
-        <img src="/images/logo.png" />
-      </div>
-    </React.Fragment>
+    <div style={{display: 'flex'}}>
+      <Sidebar onSelectFile={setSelectedFile}/>
+      <Editor file={selectedFile}/>
+    </div>
   );
 };
 
-export default Home;
+export default App;
