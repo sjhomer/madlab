@@ -1,26 +1,48 @@
 # 👨🏻‍🔬 MADLAB 🧪
 
-> A collection of experiments and explorations of notable frameworks, templates, or tools.
+> Putting noteworthy frameworks/templates/tools to the test in a real-world scenario.
 
-While there's some great collections of frameworks/templates/tools for you to go out and explore ([Awesome React Components](https://github.com/brillout/awesome-react-components) for example), sometimes the projects not ready to go or inaccessible out of the box. These guides beyond a wall of links too often don't have any guidance their real world usage or detailed pros/cons of working with them. 
+Although there are great collections of frameworks/templates/tools to explore (such as [Awesome React Components](https://github.com/brillout/awesome-react-components)), sometimes the projects are not ready-to-use or may require additional configuration. Moreover, there's no advice on how to apply these projects in everyday scenarios or the advantages and disadvantages of using them. MADLAB's will focus on documenting my explorations and experiments with these tools, offering sensible standards to help you get started.
 
-Thus, the main purpose of MADLAB is to document my own explorations and experiments with these tools, and provide a bit of a guide to help you get started with them with some sensible standards baked in to help you get started.
+Despite my [veteran status in web development](https://dev.sjhomer.com), I have been unable to substantiate my views and insights in support of the open source community. By documenting my efforts here, I hope to change that. As we witness the rise of AI tooling and evolving methods for web application development in 2023, my mission is to equip developers, both new and old, with a deep understanding of the tools available to them and how to use them effectively. 
 
-As [veteran in the web development field](https://dev.sjhomer.com), I've categorically failed to substantiate my views and insights in support of the open source community. I'm hoping to change that by documenting my efforts here. Given the explosion of AI tooling in early 2023, and evolution of ways to build web applications, I desire empowering developers new and old alike with understanding of tools available to them, and how to use them effectively. 
+With AI code generation tools like [Copilot](https://github.com/features/copilot) and [GPT4](https://openai.com/product/gpt-4) becoming more popular, it's important to know their limitations and remain ahead of the curve. AI can provide significant assistance, but only if you learn to take advantage of the right frameworks and tools and have the ability to direct it towards your own ideas. 💪🏻
 
-With AI code generation 🤖 ([Copilot](https://github.com/features/copilot)/[GPT4](https://openai.com/product/gpt-4)/etc) is entering our field full force, it's more important than ever to stay ahead of the curve in what these tools can't accomplish. By learning and understand how to leverage these frameworks and tools to your advantage, AI can assist a great deal, yet are not helpful if you don't have the means to guide it in the right direction and build upon your own ideas. 💪🏻
+## Real World Application - The AI Powered Editor
+
+The traditional [TODO app](https://todomvc.com/) was a helpful way to get started with a new framework, but it was never a good example of a real-world project. As AI tooling gains popularity, chatbot interfaces are becoming overdone. Nonetheless, people will not solely rely on chatbots for AI generation in the coming years.
+
+We aspire to employ AI beyond conversational purposes. We require both usefulness and enjoyment to develop our ideas and content. Tools like Notion, Confluence, and Obsidian make working with content both efficient and enjoyable. Because they were not originally designed with AI concepts in mind, their ability to fully leverage AI tools will be restricted.
+
+> The purpose of the MADLAB experiments is to examine how an AI Powered Editor (APE) can use AI to simplify the process of developing your ideas in a real-world situation. Though ambitious and broad, exploring this goal will help us understand approach limitations and how to use them to our advantage.
+
+### 📝 APE Requirements
+
+The primary goal of APE is to provide a simple and enjoyable way to develop your ideas. To achieve this, APE must meet the following requirements:
+
+- **📝 Content Creation** - APE must provide a way to create and edit content.
+- **📚 Content Management** - APE must provide a way to organize and manage content, including importing and exporting.
+- **🔍 Content Discovery** - APE must provide a way to search and discover content.
+- **📝 Content Generation** - APE must provide a way to generate content.
+- **📝 Content Collaboration** - APE must provide a way to collaborate on content.
+- **📝 Content Sharing** - APE must provide a way to share content.
+- **📝 Content Security** - APE must provide a way to secure content.
+- **📝 Content Privacy** - APE must provide a way to protect content privacy.
+- **📝 Content Versioning** - APE must provide a way to version content, and allow restoration of earlier iterations.
+- **📝 Content Insights** - APE must provide a way to gain insights from content.
+- **📝 Content Publishing** - APE must provide a way to publish content.
 
 ## 📒 Examination Approach
 
-Within this repo and documented below, you will find dedicate project folders to review alongside my summaries and insights.
+My summaries and insights on various APE iterations are available in this repository, organized into different frameworks, each with its own project folder. Shared elements will naturally develop to support APE, and they will be consolidated for streamlined and reusable use across experiments.
 
-Each of the project will follow into the following categories and states to help inform you about their current state and purpose. While I aim to be as objective as possible, I'm only human, and my own biases and preferences will likely shine through.
+To give you information about their present state and purpose, the projects will be categorized and organized. Although I aim for impartiality, my own biases and preferences may be apparent. "To err is human."
 
 ### Project Type
 
 | 🗺️ **Exploration** | 🔬 **Experiment** |
 | --- | --- |
-| A project I'm exploring which follows closely to an out of the box template/configuration with minimal changes. These are more likely full frameworks or templates that were inventive enough to warrant a closer look. | A project I'm experimenting with, which may be a bit more opinionated, and any limitations or issues in trying to achieve a reasonable starting point. |
+| A project I'm exploring which follows closely to an out of the box template/configuration with minimal changes. These are more likely full frameworks or templates that were inventive enough to warrant a closer look. | A project I'm experimenting with blending concepts together, which may be a bit more opinionated, and any limitations or issues in trying to achieve a reasonable starting point. |
 
 ### State of the Project
 
@@ -53,18 +75,35 @@ Each project will have a README.md file that will contain the following sections
 ```
 
 # Electron Projects
-Out of the box the default electron template leaves much to be desired. Thankfully there are a lot of great efforts by the community to make building these more straightforward, like incorporating your favourite frameworks, but also taking a lot of the pain out of building the app bundles too!
+
+A natural fit for building desktop apps, Electron offers a lot of flexibility to approach the requirements of APE.
+
+* The ability to be offline and run locally
+* Access to the file system, allowing content to remain private and secure
+* The ability to leverage AI models locally, without the need to send data to a server
+
+In building with Electron however, the [default template](https://www.electronjs.org/docs/latest/tutorial/quick-start) leaves much to be desired. Thankfully there are a lot of great efforts by the community to make building these more straightforward, some incorporating your favourite frameworks, but also taking a lot of the pain out of building the app bundles too!
 
 As we move into growth of open source LLMs, the ability to build desktop apps with ease running these models offline and more customized and varied uses case, such as allowing clear privacy when leveraging sensitive material, this makes Electron is a great toolset to support these efforts.
 
-* [Nextron](#nextron)
-* [Electron Forge](#electron-forge)
+* **[Electron Forge](#electron-forge)** "Electron Forge unifies the existing (and well maintained) build tools for Electron development into a simple, easy to use package so that anyone can jump right in to Electron development."
+* **[Nextron](#nextron)** This aptly named framework blends the power of Next.js with Electron, to provide a great starting point for building desktop apps alongside one of the most popular web app frameworks.
+
+## [Electron Forge](https://www.electronforge.io/)
+
+> A complete tool for building modern Electron applications.
+
+Electron Forge is a great toolset that provides a lot of flexibility and power, while being framework agnostic. Leveraging of course their TypeScript template, it offers a better springboard for building Electron apps than the default Electron template, and by exposing the webpack controls allows you to fine tune and build out your app as you desire.
+
+### 🗺️ ✅ [Electron Forge `v6.x`](./electron/electron-forge/v6.x/README.md)
+
+```bash
+npm init electron-app@latest my-new-app -- --template=webpack-typescript
+```
 
 ## [Nextron](https://github.com/saltyshiomix/nextron)
 
 > ⚡ Next.js + Electron ⚡
-
-THe aptly named framework Nextron blends the power of Next.js with Electron, to provide a great starting point for building desktop apps in one of the most popular frameworks for building web apps.
 
 As of `May 2023`, the latest available version v8.x caps out at running Next `v12.x`, toting a future v9.x that will introduce `v13.x` support, but that didn't stop me from hacking to see what I could produce!
 
@@ -95,20 +134,6 @@ As Nextron v9.x isn't available as May 2023 in any public away, I manually attem
 * More to the point, while Next v13 does run and is able to produce a homepage for the App Playground, the app routing does not work whatsoever. Likely do to all the internals of how Next app routing is leveraging SSR and something Nextron isn't able to accommodate for out of the box, understandably. 
 
 > **Considerations:** I'll be waiting to see how a Nextron v9.x release with official Next v13 support improves things, as it's not viable at present.
-
-## [Electron Forge](https://www.electronforge.io/)
-
-> A complete tool for building modern Electron applications.
-> 
-> Electron Forge unifies the existing (and well maintained) build tools for Electron development into a simple, easy to use package so that anyone can jump right in to Electron development.
-
-Electron Forge is a great toolset that provides a lot of flexibility and power, while being framework agnostic. Leveraging of course their TypeScript template, it offers a better springboard for building Electron apps than the default Electron template, and by exposing the webpack controls allows you to fine tune and build out your app as you desire.
-
-### 🗺️ ✅ [Electron Forge `v6.x`](./electron/electron-forge/v6.x/README.md)
-
-```bash
-npm init electron-app@latest my-new-app -- --template=webpack-typescript
-```
 
 # Monorepo Projects
 
