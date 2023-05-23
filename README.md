@@ -8,31 +8,34 @@ Despite my [veteran status in web development](https://dev.sjhomer.com), I have 
 
 With AI code generation tools like [Copilot](https://github.com/features/copilot) and [GPT4](https://openai.com/product/gpt-4) becoming more popular, it's important to know their limitations and remain ahead of the curve. AI can provide significant assistance, but only if you learn to take advantage of the right frameworks and tools and have the ability to direct it towards your own ideas. 💪🏻
 
-## Real World Application - The AI Powered Editor
+## Real World Application in The AI Powered Editor, or `APE`
 
 The traditional [TODO app](https://todomvc.com/) was a helpful way to get started with a new framework, but it was never a good example of a real-world project. As AI tooling gains popularity, chatbot interfaces are becoming overdone. Nonetheless, people will not solely rely on chatbots for AI generation in the coming years.
 
-We aspire to employ AI beyond conversational purposes. We require both usefulness and enjoyment to develop our ideas and content. Tools like Notion, Confluence, and Obsidian make working with content both efficient and enjoyable. Because they were not originally designed with AI concepts in mind, their ability to fully leverage AI tools will be restricted.
+We aspire to employ AI beyond conversational purposes. We require both usefulness and enjoyment to develop our ideas into content. Tools like Notion, Confluence, and Obsidian make working with content both efficient and enjoyable. Because they were not originally designed with AI concepts in mind, their ability to fully leverage AI tools will be restricted.
 
-> The purpose of the MADLAB experiments is to examine how an AI Powered Editor (APE) can use AI to simplify the process of developing your ideas in a real-world situation. Though ambitious and broad, exploring this goal will help us understand approach limitations and how to use them to our advantage.
+> The purpose of the MADLAB experiments is to examine how an AI Powered Editor (APE) can use AI to simplify the process of writing content in a real-world situation. Though ambitious and broad, exploring this goal will help us understand different approaches and limitations and how to use frameworks to our advantage.
 
-### 📝 APE Requirements
+### APE Requirements
 
-The primary goal of APE is to provide a simple and enjoyable way to develop your ideas. To achieve this, APE must meet the following requirements:
+While not all experiments may hit all of these requirements, they are a good starting point for understanding the scope of what a well-rounded application could provide in supporting an editor like APE.
 
-- **📝 Content Creation** - APE must provide a way to create and edit content.
-- **📚 Content Management** - APE must provide a way to organize and manage content, including importing and exporting.
-- **🔍 Content Discovery** - APE must provide a way to search and discover content.
-- **📝 Content Generation** - APE must provide a way to generate content.
-- **📝 Content Collaboration** - APE must provide a way to collaborate on content.
-- **📝 Content Sharing** - APE must provide a way to share content.
-- **📝 Content Security** - APE must provide a way to secure content.
-- **📝 Content Privacy** - APE must provide a way to protect content privacy.
-- **📝 Content Versioning** - APE must provide a way to version content, and allow restoration of earlier iterations.
-- **📝 Content Insights** - APE must provide a way to gain insights from content.
-- **📝 Content Publishing** - APE must provide a way to publish content.
+#### Essential Requirements
+- **📝 Content Creation** - In the least, APE must provide a way to create and edit content.
+- **🗂️ Content Management** - There will need to be the ability to store and manage content within APE.
+- **📑 Versioning & Revisions** - Storage of content must be versioned and allow for revisions and restoration.
+- **⚡️ Content Generation** - Being able to generate content is a primary goal of APE, powered by AI services.
+- **🔒 Security & Privacy** - Security and privacy are essential to APE, and must be considered in all aspects of the application.
 
-## 📒 Examination Approach
+#### Desirable Requirements
+- **⛓️ Transforming Content** - Importing and exporting content.
+- **🔍 Content Discovery** - Being able to search relevant or related content.
+- **👨‍👩‍👦‍👦 Content Collaboration** - Providing a way to collaborate on content with other users.
+- **👥 Content Sharing** - Having a way to share content with other users.
+- **💡 Content Insights** - Leveraging AI to provide insights on content the user has created.
+- **🖨️ Content Publishing** - Considering how content can be published to other platforms conveniently.
+
+## 🕵🏻‍♂️ Examination Approach
 
 My summaries and insights on various APE iterations are available in this repository, organized into different frameworks, each with its own project folder. Shared elements will naturally develop to support APE, and they will be consolidated for streamlined and reusable use across experiments.
 
@@ -65,13 +68,12 @@ When possible, many projects here will favour the following tools or libraries.
 
 Each project will have a README.md file that will contain the following sections:
 ```markdown
-## [type] [state] [project name] [version(s)]
+## :type: :state: [project name, version(s)](link/to/folder)
 [description]
 [learnings]
 * ...
 * ...
 [conclusion]
-* ...
 ```
 
 # Electron Projects
